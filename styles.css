@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.content {
+    height: 100vh;
+    background-image: linear-gradient(120deg, rgb(172, 127, 127),rgb(151, 97, 97, 0.8));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h1 {
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 2.5em;
+    line-height: 1.4em;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+.container {
+    display: grid;
+    max-width: 90%;
+    width: 550px;
+    height: 550px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.buttons {
+    margin: 1em 0;
+    max-width: 90%;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+#black-btn {
+    background-color: black;
+    color: white;
+}
+
+#rgb-btn {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    );
+    color: white;
+}
+
+#eraser-btn {
+    background-color: white;
+}
+
+.rangeslider{
+    width: 15%;
+    
+}
+
+.myslider {
+    background: black;
+    width: 100%;
+    height: 4px;
+}
+
+.rangeslider p {
+    font-size: 0.6em;
+    line-height: 3em; 
+    text-align: center;
+}
