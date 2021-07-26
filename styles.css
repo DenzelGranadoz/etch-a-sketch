@@ -56,26 +56,16 @@
         90deg,
         rgba(255, 0, 0, 1) 0%,
         rgba(255, 154, 0, 1) 10%,
-        rgba(208, 222, 33, 1) 20%,
         rgba(79, 220, 74, 1) 30%,
         rgba(63, 218, 216, 1) 40%,
-        rgba(47, 201, 226, 1) 50%,
-        rgba(28, 127, 238, 1) 60%,
         rgba(95, 21, 242, 1) 70%,
-        rgba(186, 12, 248, 1) 80%,
-        rgba(251, 7, 217, 1) 90%,
         rgba(255, 0, 0, 1) 100%
     );
     color: white;
 }
 
-#eraser-btn {
-    background-color: white;
-}
-
 .rangeslider{
     width: 25%;
-    
 }
 
 .myslider {
@@ -101,27 +91,6 @@
     }
     .btn {
         padding: 5px 10px;
-    }
-    .buttons span{
-        font-size: 0.8em;
-    }
-    .rangeslider p {
-        font-size: 0.6em;
-        line-height: 3em; 
-    }
-}
-
-@media (max-width: 500px) {
-    .content h1 {
-        font-size: 2em;
-        line-height: 1.4em;
-    }
-    .container {
-        width: 350px;
-        height: 350px;
-    }
-    .btn {
-        padding: 2px 4px;
     }
     .buttons span{
         font-size: 0.6em;
