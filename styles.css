@@ -90,7 +90,7 @@
     text-align: center;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 840px) {
     .content h1 {
         font-size: 2em;
         line-height: 1.4em;
@@ -117,17 +117,17 @@
         line-height: 1.4em;
     }
     .container {
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
     }
     .btn {
-        padding: 3px 8px;
+        padding: 2px 4px;
     }
     .buttons span{
-        font-size: 0.7em;
+        font-size: 0.6em;
     }
     .rangeslider p {
-        font-size: 0.4em;
+        font-size: 0.45em;
         line-height: 3em; 
     }
 }
